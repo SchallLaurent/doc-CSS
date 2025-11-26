@@ -114,11 +114,6 @@ css-utilities-doc/
 │   ├── scroll-snap.md
 │   ├── masonry.md
 │   └── focus-ring.md
-├── src/                      # Code source SCSS
-│   ├── _aspect-ratio.scss
-│   ├── _sticky-wrapper.scss
-│   └── utilities.scss        # Import de tous les utilitaires
-└── examples/                 # Exemples HTML/CSS
 ```
 
 ## 💡 Exemples rapides
