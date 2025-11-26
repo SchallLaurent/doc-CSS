@@ -300,3 +300,5 @@ Utiliser la variable `--grid-template` pour définir des tailles de colonnes per
   <div>Item 2</div>
 </div>
 ```
+
+[← Retour à la documentation](../README.md)
