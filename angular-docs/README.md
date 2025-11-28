@@ -28,6 +28,18 @@ Ce dossier contient des guides détaillés sur Angular, organisés par thématiq
   - Différences et cas d'usage
   - Best practices et pièges à éviter
 
+#### Communication entre composants
+
+- **[@Input & @Output](./input-output/)** - Communication parent-enfant
+  - @Input - Passage de données du parent vers l'enfant
+  - @Output - Émission d'événements de l'enfant vers le parent
+  - EventEmitter - Gestion des événements
+  - Two-way binding - Convention [(property)]
+  - Alias et renommage de propriétés
+  - Getters/Setters avec @Input
+  - Communication entre frères (siblings)
+  - Best practices et pièges à éviter
+
 ## 🎯 Objectifs
 
 - 📖 Fournir des explications claires des concepts Angular
