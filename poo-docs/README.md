@@ -8,7 +8,7 @@ Ce dossier contient des guides et références sur les principes fondamentaux de
 
 ### Documents disponibles
 
-- **[Modificateurs d'accès et méthodes statiques](./modificateurs-acces-poo.md)** - Guide complet sur `public`, `private`, `protected` et `static`
+- **[Modificateurs d'accès et méthodes statiques](./modif-acces-poo.md)** - Guide complet sur `public`, `private`, `protected` et `static`
 
 ## 🎯 Objectifs
 
@@ -56,7 +56,3 @@ Cette documentation est un travail en cours. Les sujets suivants sont prévus :
 ## 📄 License
 
 Documentation libre d'utilisation pour l'apprentissage et la référence personnelle.
-
----
-
-_Dernière mise à jour : Novembre 2025_
