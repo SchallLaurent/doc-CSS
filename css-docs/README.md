@@ -17,17 +17,20 @@ Ce repository contient une collection de classes CSS utilitaires modernes et fle
 ## 🚀 Installation
 
 ### Option 1 : Copier-coller
+
 Copiez simplement le code SCSS des utilitaires dont vous avez besoin dans votre projet.
 
 ### Option 2 : Import depuis votre SCSS
+
 ```scss
 // Dans votre styles.scss ou fichier principal
-@import 'utilities/aspect-ratio';
-@import 'utilities/fluid-space';
+@import "utilities/aspect-ratio";
+@import "utilities/fluid-space";
 // etc.
 ```
 
 ### Option 3 : Clone du repository
+
 ```bash
 git clone https://github.com/votre-username/css-utilities-doc.git
 cd css-utilities-doc
@@ -37,51 +40,51 @@ cd css-utilities-doc
 
 ### 🎨 Layout & Positionnement
 
-- **[Aspect Ratio](./docs/aspect-ratio.md)** - Ratios d'images et conteneurs flexibles
-- **[Sticky Wrapper](./docs/sticky-wrapper.md)** - Headers/footers collants avec offset personnalisable
-- **[Center Absolute](./docs/center-absolute.md)** - Centrage absolu avec offsets
-- **[Split Screen](./docs/split.md)** - Écrans divisés avec ratios personnalisables
-- **[Media Object](./docs/media.md)** - Pattern média + contenu classique
+- **[Aspect Ratio](./aspect-ratio.md)** - Ratios d'images et conteneurs flexibles
+- **[Sticky Wrapper](./sticky-wrapper.md)** - Headers/footers collants avec offset personnalisable
+- **[Center Absolute](./center-absolute.md)** - Centrage absolu avec offsets
+- **[Split Screen](./split.md)** - Écrans divisés avec ratios personnalisables
+- **[Media Object](./media.md)** - Pattern média + contenu classique
 
 ### 📐 Spacing & Sizing
 
-- **[Gap Wrapper](./docs/gap-wrapper.md)** - Espacement intelligent flex/grid
-- **[Fluid Space](./docs/fluid-space.md)** - Spacing responsive sans media queries
-- **[Container Fluid](./docs/container-fluid.md)** - Conteneurs avec padding intelligent
+- **[Gap Wrapper](./gap-wrapper.md)** - Espacement intelligent flex/grid
+- **[Fluid Space](./fluid-space.md)** - Spacing responsive sans media queries
+- **[Container Fluid](./container-fluid.md)** - Conteneurs avec padding intelligent
 
 ### ✍️ Typography
 
-- **[Fluid Text](./docs/fluid-text.md)** - Typographie responsive fluide
-- **[Line Clamp](./docs/line-clamp.md)** - Truncate texte multi-lignes
-- **[Text Balance](./docs/text-balance.md)** - Titres équilibrés automatiquement
+- **[Fluid Text](./fluid-text.md)** - Typographie responsive fluide
+- **[Line Clamp](./line-clamp.md)** - Truncate texte multi-lignes
+- **[Text Balance](./text-balance.md)** - Titres équilibrés automatiquement
 
 ### 🎭 Visual Effects
 
-- **[Shadow Wrapper](./docs/shadow-wrapper.md)** - Système d'ombres cohérent
-- **[Glass Effect](./docs/glass-effect.md)** - Effet glassmorphism moderne
-- **[Gradient Background](./docs/gradient-bg.md)** - Dégradés personnalisables
-- **[Rounded](./docs/rounded.md)** - Système de border-radius flexible
+- **[Shadow Wrapper](./shadow-wrapper.md)** - Système d'ombres cohérent
+- **[Glass Effect](./glass-effect.md)** - Effet glassmorphism moderne
+- **[Gradient Background](./gradient-bg.md)** - Dégradés personnalisables
+- **[Rounded](./rounded.md)** - Système de border-radius flexible
 
 ### 🎬 Animations & Transitions
 
-- **[Transition](./docs/transition.md)** - Transitions CSS configurables
-- **[Hover Lift](./docs/hover-lift.md)** - Effets de survol élégants
-- **[Skeleton](./docs/skeleton.md)** - Loading skeletons animés
+- **[Transition](./transition.md)** - Transitions CSS configurables
+- **[Hover Lift](./hover-lift.md)** - Effets de survol élégants
+- **[Skeleton](./skeleton.md)** - Loading skeletons animés
 
 ### 📱 Responsive Utilities
 
-- **[Hide Mobile](./docs/hide-mobile.md)** - Show/hide responsive
-- **[Stack](./docs/stack.md)** - Layout flex responsive automatique
+- **[Hide Mobile](./hide-mobile.md)** - Show/hide responsive
+- **[Stack](./stack.md)** - Layout flex responsive automatique
 
 ### 🃏 Components
 
-- **[Card](./docs/card.md)** - Cards stylisées personnalisables
-- **[Scroll Snap](./docs/scroll-snap.md)** - Scroll avec snap points
-- **[Grid Wrapper](./docs/grid-wrapper.md)** - Grid automatique
+- **[Card](./card.md)** - Cards stylisées personnalisables
+- **[Scroll Snap](./scroll-snap.md)** - Scroll avec snap points
+- **[Grid Wrapper](./grid-wrapper.md)** - Grid automatique
 
 ### 🎯 Accessibility
 
-- **[Focus Ring](./docs/focus-ring.md)** - Focus visible accessible
+- **[Focus Ring](./focus-ring.md)** - Focus visible accessible
 
 ## 📖 Structure du projet
 
@@ -118,13 +121,15 @@ css-utilities-doc/
 ## 💡 Exemples rapides
 
 ### Aspect Ratio pour images
+
 ```html
 <div class="aspect-ratio" style="--ratio: 16/9">
-  <img src="image.jpg" alt="Image 16:9">
+  <img src="image.jpg" alt="Image 16:9" />
 </div>
 ```
 
 ### Texte fluide responsive
+
 ```html
 <h1 class="fluid-text" style="--min-size: 1.5rem; --max-size: 3rem">
   Titre responsive
@@ -132,6 +137,7 @@ css-utilities-doc/
 ```
 
 ### Card avec effet glassmorphism
+
 ```html
 <div class="card glass-effect" style="--blur: 15px; --opacity: 0.9">
   <h2>Contenu</h2>
@@ -139,6 +145,7 @@ css-utilities-doc/
 ```
 
 ### Grid masonry
+
 ```html
 <div class="masonry" style="--cols: 3; --gap: 1rem">
   <div>Item 1</div>
@@ -158,6 +165,7 @@ css-utilities-doc/
 ## 🎨 Principes de design
 
 Ces utilitaires suivent les principes suivants :
+
 - **Utility-first** : Classes réutilisables et composables
 - **CSS Variables** : Personnalisation sans recompilation
 - **Mobile-first** : Responsive par défaut
@@ -186,26 +194,29 @@ Les contributions sont les bienvenues ! Voici comment contribuer :
 ## 🔧 Utilisation dans différents frameworks
 
 ### Angular
+
 ```scss
 // styles.scss
-@import 'utilities/aspect-ratio';
-@import 'utilities/fluid-text';
+@import "utilities/aspect-ratio";
+@import "utilities/fluid-text";
 ```
+
 ```html
 <!-- component.html -->
 <div class="aspect-ratio" [style.--ratio]="'16/9'">
-  <img [src]="imageUrl" alt="Image">
+  <img [src]="imageUrl" alt="Image" />
 </div>
 ```
 
 ### React
+
 ```jsx
 // App.jsx
-import './utilities.scss';
+import "./utilities.scss";
 
 function App() {
   return (
-    <div className="aspect-ratio" style={{'--ratio': '16/9'}}>
+    <div className="aspect-ratio" style={{ "--ratio": "16/9" }}>
       <img src={imageUrl} alt="Image" />
     </div>
   );
@@ -213,18 +224,20 @@ function App() {
 ```
 
 ### Vue
+
 ```vue
 <!-- Component.vue -->
 <template>
   <div class="aspect-ratio" :style="{ '--ratio': '16/9' }">
-    <img :src="imageUrl" alt="Image">
+    <img :src="imageUrl" alt="Image" />
   </div>
 </template>
 
 <style lang="scss">
-@import '@/utilities/aspect-ratio';
+@import "@/utilities/aspect-ratio";
 </style>
 ```
+
 ---
 
 **Made with ❤️ for the web development community**
